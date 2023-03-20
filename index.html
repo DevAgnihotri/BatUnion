@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <!-- Site Title-->
+    <title>BatUnion</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Fira+Sans:300,600,800,800i%7COpen+Sans:300,400,400i">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  </head>
+  <body>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="preloader">
+      <div class="cssload-container">
+        <svg class="filter" version="1.1">
+          <defs>
+            <filter id="gooeyness">
+              <fegaussianblur in="SourceGraphic" stddeviation="10" result="blur"></fegaussianblur>
+              <fecolormatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="gooeyness"></fecolormatrix>
+              <fecomposite in="SourceGraphic" in2="gooeyness" operator="atop"></fecomposite>
+            </filter>
+          </defs>
+        </svg>
+        <div class="dots">
+          <div class="dot mainDot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <!-- Page-->
+    <div class="page">
+      <header class="page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar_transparent rd-navbar_boxed" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-stick-up-clone="false" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true" data-md-stick-up-offset="115px" data-lg-stick-up-offset="35px" data-body-class="rd-navbar-absolute">
+            <!-- RD Navbar Top Panel-->
+            <div class="rd-navbar-top-panel">
+              <div class="rd-navbar-top-panel__main">
+                <div class="rd-navbar-top-panel__toggle rd-navbar-fixed__element-1 rd-navbar-static--hidden" data-rd-navbar-toggle=".rd-navbar-top-panel__main"><span></span></div>
+                <div class="rd-navbar-top-panel__content">
+                  <div class="rd-navbar-top-panel__left">
+                    <ul class="rd-navbar-items-list">
+                      <li>
+                        <div class="unit flex-row align-items-center unit-spacing-xs">
+                          <div class="unit__left"><span class="icon icon-sm icon-primary linear-icon-map-marker"></span></div>
+                          <div class="unit__body">
+                            <p><a href="#0">Address: Batcave, Gotham</a></p>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="unit flex-row align-items-center unit-spacing-xs">
+                          <div class="unit__left"><span class="icon icon-sm icon-primary linear-icon-telephone"></span></div>
+                          <div class="unit__body">
+                            <ul class="list-semicolon">
+                              <li><a href="./bat-signal/index.html">(831) Bat-signal</a></li>
+                              <li><a href="./bat-signal/index.html">(831) Bat-signal</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="rd-navbar-top-panel__right">
+                    <ul class="list-inline-xxs">
+                      <li><a class="icon icon-xxs icon-gray-darker fa fa-facebook" href="./dancebat/index.html"></a></li>
+                      <li><a class="icon icon-xxs icon-gray-darker fa fa-twitter" href="./dancebat/index.html"></a></li>
+                      <li><a class="icon icon-xxs icon-gray-darker fa fa-google-plus" href="./dancebat/index.html"></a></li>
+                      <li><a class="icon icon-xxs icon-gray-darker fa fa-vimeo" href="./dancebat/index.html"></a></li>
+                      <li><a class="icon icon-xxs icon-gray-darker fa fa-youtube" href="./dancebat/index.html"></a></li>
+                      <li><a class="icon icon-xxs icon-gray-darker fa fa-pinterest-p" href="./dancebat/index.html"></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rd-navbar-inner rd-navbar-search-wrap">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel rd-navbar-search-lg_collapsable">
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <!-- RD Navbar Brand-->
+                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img src="images/logo-344x67.png" alt="" width="172" height="33"/></a></div>
+              </div>
+              <!-- RD Navbar Nav-->
+              <div class="rd-navbar-nav-wrap rd-navbar-search_not-collapsable">
+                <div class="rd-navbar-search_collapsable">
+                  <ul class="rd-navbar-nav">
+                    <li class="active"><a href="index.html">BatUnion</a>
+                    </li>
+                    <li><a href="./DarkKnight/index.html">Dark Knight</a>
+                    </li>
+                    <li><a href="./Vengeance/index.html">Vengeance</a>
+                    </li>
+                    <li><a href="./Lego/index.html">Lego Batman</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- Swiper-->
+      <svg class="defs">
+        <defs>
+          <lineargradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="50%" stop-color="#ff1111">
+              <animate attributename="stop-color" values="#ff1111; #540000; #ff1111" dur="5s" repeatcount="indefinite"></animate>
+            </stop>
+            <stop offset="100%" stop-color="#540000">
+              <animate attributename="stop-color" values="#540000; #ff1111; #540000" dur="5s" repeatcount="indefinite"></animate>
+            </stop>
+          </lineargradient>
+        </defs>
+      </svg>
+      <div class="swiper-container swiper-slider" data-effect="frame-trapeze" data-loop="true" data-autoplay="5500" data-speed="1200" data-mousewheel="false" data-keyboard="true" data-frame-fill="url(#gradient1)">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-slide-img" style="background-image: url(images/slider-slide-5-1920x1280.jpg);" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperSlideRotate&quot;, &quot;duration&quot;: 2000, &quot;delay&quot;: 600 }"></div>
+            <div class="swiper-slide-caption text-center context-dark">
+              <h1 data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 500 }">I'm Vengeance</h1>
+              <h3 data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 600 }">I'm the Batman, the Vengeance, the night</h3>
+              <div class="group-lg group-middle" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 700 }"><a class="button button-primary button-shadow" href="./bat-storm/index.html" >Bat Storm</a><a class="button button-black button-shadow" href="./Vengeance/index.html">My Website</a></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-img" style="background-image: url(images/slider-slide-6-1920x986.jpg);" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperSlideRotate&quot;, &quot;duration&quot;: 2000, &quot;delay&quot;: 600 }"></div>
+            <div class="swiper-slide-caption context-dark">
+              <h2 data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 500 }">I'm not just a toy<br class="d-none d-lg-block">I'm a crime fighting machine...made of blocks</h2><a class="button button-primary button-shadow" href="./Lego/index.html" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 700 }">Visit Website</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-img" style="background-image: url(images/slider-slide-7-1920x1080.jpg);" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperSlideRotate&quot;, &quot;duration&quot;: 2000, &quot;delay&quot;: 600 }"></div>
+            <div class="swiper-slide-caption context-dark">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-7">
+                    <h2 data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 500 }">I'm The dark knight</h2>
+                    <h5 class="text-width-2 block-centered" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 600 }">As the Dark Knight, I take my responsibilities Batriously. cause I'm Batastic</h5>
+                    <div class="group-lg group-middle" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 700 }"><a class="button button-black button-shadow" href="./bat-knight/index.html" >Watch me</a><a class="button button-primary button-shadow" href="./DarkKnight/index.html">my Website</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev linear-icon-chevron-left"></div>
+        <div class="swiper-button-next linear-icon-chevron-right"></div>
+      </div>
+      <section class="section-xs section-cta bg-gray-dark text-center text-md-left">
+        <div class="container">
+          <div class="row row-30 justify-content-between align-items-center">
+            <div class="col-12 col-md-8">
+              <h4>Wanna watch me fly?</h4>
+              <p>My Bat logo serves as a warning to those who would threaten the safety of Gotham City <br> a reminder that justice will always prevail.</p>
+            </div>
+            <div class="col-12 col-md-4 text-md-right"><a class="button button-primary" href="./batman-logo/index.html">Click me</a></div>
+          </div>
+        </div>
+      </section>
+      <!-- About us-->
+      <section class="bg-gray-lighter object-wrap">
+        <div class="bg-decor d-flex align-items-center justify-content-start" data-parallax-scroll="{&quot;y&quot;: 50,  &quot;smoothness&quot;: 30}"><img src="images/bg-decor-9.png" alt=""/>
+        </div>
+        <div class="section-lg">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5">
+                <h4 class="heading-decorated">About us</h4>
+                <p class="about_p">Salutations, peasants of Gotham! We are the Batmen, Gotham's only hope for justice. That's right, we said it. You heard us correctly. Only. Hope. For. Justice. So, what does that say about the rest of you? We'll let you ponder that for a bit.</p>
+                <p class="about_p">As you might have guessed, we're a pretty diverse group of people. We've got Batmen of all shapes and sizes, from the buffed-up, brawny Batmen to the slim and agile acrobatic Batmen. We even have one Bat-Man who's a toy, but we don't judge.</p>
+                <p class="about_p">Now, we know some of you may be thinking, "Why do we need the Batmen? Can't the police handle things?" Ha! Don't make us laugh. The police are like a bunch of toddlers compared to us. They couldn't catch a cold if they tried.</p>
+                <p class="about_p">And as for the villains of Gotham? Pfft. Don't even get us started. We've taken down the Joker so many times, we're practically on a first-name basis with him. The Penguin? More like the Dodo. Two-Face? We've seen better faces on a deck of cards. And don't even get us started on the Riddler. That guy's so annoying, we had to invent a Bat-migraine medication just to deal with him.</p>
+                <p class="about_p">So if you're ever in trouble, don't bother calling the police. Just give us a Bat-signal and we'll be there, ready to save the day. And if we happen to make the police look like fools in the process, well, that's just a batbonus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="object-wrap__body object-wrap__body-sizing-1 object-wrap__body-md-right bg-image" style="background-image: url(images/bg-image-1.jpg)"></div>
+      </section>
+      <!-- Our Services-->
+      <section class="section-md bg-default text-center decor-text" id="features" data-content="Services">
+        <div class="bg-decor d-flex align-items-center" data-parallax-scroll="{&quot;x&quot;: 80,  &quot;smoothness&quot;: 30}"><img src="images/bg-decor-1.png" alt=""/>
+        </div>
+        <div class="container">
+          <h4 class="heading-decorated">Our Services</h4>
+          <div class="row row-50 justify-content-md-center justify-content-lg-start text-left">
+            <div class="col-md-6 col-xl-4">
+              <!-- Blurb circle-->
+              <article class="blurb blurb-minimal">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-minimal__icon"><span class="icon linear-icon-pencil-ruler"></span></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6"><a href="#">Bat-grappling hook service</a></p>
+                    <p class="service_p"> Need to get to the top of a building quickly? No problem! Just call on our Bat-grappling hook service and we'll have you scaling walls like Spider-Man in no time.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4">
+              <!-- Blurb circle-->
+              <article class="blurb blurb-minimal">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-minimal__icon"><span class="icon linear-icon-users"></span></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6"><a href="#">Bat-detection service:</a></p>
+                    <p class="service_p">Think you've got a villain hiding in your midst? Our Bat-detection service can help you sniff out the bad guys and bring them to justice faster than you can say "Robin, to the Batcave!"</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4">
+              <!-- Blurb circle-->
+              <article class="blurb blurb-minimal">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-minimal__icon"><span class="icon linear-icon-wall"></span></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6"><a href="#">Bat-trap service</a></p>
+                    <p class="service_p">Sometimes the best way to catch a criminal is to trick them into falling into one of our Bat-traps. From nets to trip wires, we've got a trap for every occasion.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4">
+              <!-- Blurb circle-->
+              <article class="blurb blurb-minimal">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-minimal__icon"><span class="icon linear-icon-apartment"></span></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6"><a href="#">Bat-voice service</a></p>
+                    <p class="service_p">Want to strike fear into the hearts of your enemies? Our Bat-voice service can help. Just speak into our Bat-modulator and you'll sound so menacing, even the toughest villains will cower in fear.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4">
+              <!-- Blurb circle-->
+              <article class="blurb blurb-minimal">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-minimal__icon"><span class="icon linear-icon-home4"></span></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6"><a href="#">Bat-escape service</a></p>
+                    <p class="service_p">Need to make a quick getaway? Our Bat-escape service has got you covered. With our speedy Bat-vehicles, we'll have you out of danger and back to your little house before you can say "Holy escape plan, Batman!"</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4">
+              <!-- Blurb circle -->
+              <article class="blurb blurb-minimal">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-minimal__icon"><span class="icon linear-icon-pencil-ruler2"></span></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6"><a href="#">Bat-signal service</a></p>
+                    <p class="service_p"> It's like a beacon of hope shining in the darkness, calling forth the mighty Batmen to save the day.And with our lightning-fast response time, we'll have those baddies taken care of quicker than you can say "Ouch!"</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <!-- Blurb minimal-->
+              <article class="blurb blurb-minimal">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-minimal__icon"><span class="icon linear-icon-magic-wand"></span></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6"><a href="#">Bat-belt magic service</a></p>
+                    <p class="service_p">Our trusty Bat-belts are packed with all the gadgets you need to take down even the toughest of foes. Need a smoke bomb? We've got you covered. How about a batarang? No problem. Our Bat-belt service has got you covered.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <!-- Blurb minimal-->
+              <article class="blurb blurb-minimal">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-minimal__icon"><span class="icon linear-icon-menu3"></span></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6"><a href="#">Bat-interrogation service</a></p>
+                    <p class="service_p">When the bad guys won't spill the beans, our Bat-interrogation service can help. With our expert techniques (no, we won't tell you what they are), we'll get the information we need to take down even the toughest of criminals.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <!-- Blurb minimal-->
+              <article class="blurb blurb-minimal">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-minimal__icon"><span class="icon linear-icon-users2"></span></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6"><a href="#">Bat-suit service</a></p>
+                    <p class="service_p">Our Bat-suits aren't just fashionable ,they're also super expensive and are super functional. With Kevlar lining and built-in cooling systems, you'll be able to take down the bad guys in style and comfort.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-md bg-gray-lighter text-center decor-text" data-content="Process">
+        <div class="container">
+          <h4 class="heading-decorated">My working process</h4>
+          <div class="row row-30 justify-content-center">
+            <div class="col-sm-10 col-lg-6"><img src="images/home-var-2-650x495.jpg" alt="" width="650" height="495"/>
+            </div>
+            <div class="col-sm-10 col-lg-6">
+              <!-- Blurb circle-->
+              <article class="blurb blurb-circle">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-circle__icon"><span class="icon linear-icon-feather"></span></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6">Bat-planning process:</p>
+                    <p>Before we swing into action, we plan our attack. Our Bat-planning process involves studying the criminal's habits, mapping out their hideouts, and figuring out the best ways to take them down. It's like a game of chess, but with more explosions and less patience.</p>
+                  </div>
+                </div>
+              </article>
+              <!-- Blurb circle-->
+              <article class="blurb blurb-circle">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-circle__icon"><span class="icon linear-icon-menu3"></span></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6">Bat-preparation process</p>
+                    <p>Our Bat-preparation process involves suiting up in our trusty Bat-suits, loading up on gadgets and weapons, and practicing our martial arts moves. It's like getting ready for a big game, but with more capes and less team spirit.</p>
+                  </div>
+                </div>
+              </article>
+              <!-- Blurb circle-->
+              <article class="blurb blurb-circle">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-circle__icon"><span class="icon linear-icon-bag2"></span></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6">Bat-recovery process</p>
+                    <p>After a night of fighting crime, it's time for Bat-recovery process.It involves soaking in a hot bath, getting a massage from Alfred, and eating a protein-packed Bat-shake. It's like a spa day, but with more bruises and less relaxation.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--cta-->
+      <!-- Call to Action-->
+      <section class="section-md bg-accent bg-image text-center bg-overlay-darker" style="background-image: url(images/bg-image-8.jpg); background-position: center 50%;">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-md-11 col-lg-9 col-xl-8"> 
+              <h3 class="heading-decorated">Haven’t seen my dance yet? Well watch me batancing</h3><a class="button button-primary" href="./bat-dancing/index.html">Click me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio-->
+      <section class="section-md text-center bg-default">
+        <div class="bg-decor d-flex align-items-center justify-content-end" data-parallax-scroll="{&quot;y&quot;: 130, &quot;smoothness&quot;: 30}"><img src="images/bg-decor-4.png" alt=""/>
+        </div>
+        <div class="container">
+          <h4 class="heading-decorated">Our Clients</h4>
+          <div class="row row-30">
+            <div class="col-sm-6 col-md-3">
+              <figure class="box-icon-image"><a href="#0"><img src="images/company-1-126x102.png" alt="" width="126" height="102"/></a></figure>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <figure class="box-icon-image"><a href="#0"><img src="images/company-2-134x102.png" alt="" width="134" height="102"/></a></figure>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <figure class="box-icon-image"><a href="#0"><img src="images/company-3-132x102.png" alt="" width="132" height="102"/></a></figure>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <figure class="box-icon-image"><a href="#0"><img src="images/company-4-126x102.png" alt="" width="126" height="102"/></a></figure>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <figure class="box-icon-image"><a href="#0"><img src="images/company-5-138x102.png" alt="" width="138" height="102"/></a></figure>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <figure class="box-icon-image"><a href="#0"><img src="images/company-6-143x102.png" alt="" width="143" height="102"/></a></figure>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <figure class="box-icon-image"><a href="#0"><img src="images/company-7-109x102.png" alt="" width="109" height="102"/></a></figure>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <figure class="box-icon-image"><a href="#0"><img src="images/company-8-109x102.png" alt="" width="109" height="102"/></a></figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Page Footer-->
+      <section class="pre-footer-corporate bg-image-7 bg-overlay-darkest">
+        <div class="container">
+          <div class="row justify-content-sm-center justify-content-lg-start row-30 row-md-60">
+            <div class="col-sm-10 col-md-6 col-lg-10 col-xl-3">
+              <h6>About</h6>
+              <p>"Well, that's it for now, folks. The Batman has better things to do than babysit the people of Gotham all night. But don't worry, we'll still be out there protecting our precious Bat-gadgets and keeping the bad guys in check. Just remember to lock your doors and stay out of our way, because when it comes to saving Gotham, nobody does it better than us. Until next time, Gothamites."</p>
+            </div>
+            <div class="col-sm-10 col-md-6 col-lg-3 col-xl-3">
+              <h6>Navigation</h6>
+              <ul class="list-xxs">
+                <li><a href="./bat-dancing/index.html">Bat-Dancing</a></li>
+                <li><a href="./bat-knight/index.html">Bat-Knight</a></li>
+                <li><a href="./bat-signal/index.html">Bat Signal</a></li>
+                <li><a href="./bat-storm/index.html">Bat Storm</a></li>
+                <li><a href="./batman-logo/index.html">Batman Logo</a></li>
+                <li><a href="./dancebat/index.html">Dance Bat</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-10 col-md-6 col-lg-5 col-xl-3">
+              <h6>Batmen</h6>
+              <ul class="list-xs">
+                <li>
+                  <!-- Comment minimal-->
+                  <article class="comment-minimal">
+                    <p class="comment-minimal__author">The Vengeance</p>
+                    <p class="comment-minimal__link"><a href="./Vengeance/index.html">I'm the Batman,  The Vengeance, The Night</a></p>
+                  </article>
+                </li>
+                <li>
+                  <!-- Comment minimal-->
+                  <article class="comment-minimal">
+                    <p class="comment-minimal__author">Lego Batman</p>
+                    <p class="comment-minimal__link"><a href="./Lego/index.html">I'm a toy that kicks ass. I'm the block that'll give you a bat-shock</a></p>
+                  </article>
+                </li>
+                <li>
+                  <!-- Comment minimal-->
+                  <article class="comment-minimal">
+                    <p class="comment-minimal__author">The Dark Knight</p>
+                    <p class="comment-minimal__link"><a href="./DarkKnight/index.html">I'm a one man army cause I'm a Bat-talion.</a></p>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
+              <h6>Contacts</h6>
+              <ul class="list-xs">
+                <li>
+                  <dl class="list-terms-minimal">
+                    <dt>Address</dt>
+                    <dd>Batcave, Gotham City</dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl class="list-terms-minimal">
+                    <dt>Phones</dt>
+                    <dd>
+                      <ul class="list-semicolon">
+                        <li><a href="./bat-signal/index.html">(831) Bat-Signal</a></li>
+                        <li><a href="./bat-signal/index.html">(831) Bat-Signal</a></li>
+                      </ul>
+                    </dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl class="list-terms-minimal">
+                    <dt>E-mail</dt>
+                    <dd><a href="./talk/index.html">Batmen@Batcave.org</a></dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl class="list-terms-minimal">
+                    <dt>Opening Hours:</dt>
+                    <dd>Mn-Sn: 00:00 - 24:00</dd>
+                  </dl>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer-corporate bg-gray-darkest">
+        <div class="container">
+          <div class="footer-corporate__inner">
+            <p class="rights"><span class="copyright-year"></span>. Designed by Batcave CEO and CTO <a href="https://devagnihotri.github.io/DEV">Dev Agnihotri</a></p>
+            <ul class="list-inline-xxs">
+              <li><a class="icon icon-xxs icon-primary fa fa-facebook" href="./bat-signal/index.html"></a></li>
+              <li><a class="icon icon-xxs icon-primary fa fa-twitter" href="./bat-signal/index.html"></a></li>
+              <li><a class="icon icon-xxs icon-primary fa fa-google-plus" href="./bat-signal/index.html"></a></li>
+              <li><a class="icon icon-xxs icon-primary fa fa-vimeo" href="./bat-signal/index.html"></a></li>
+              <li><a class="icon icon-xxs icon-primary fa fa-youtube" href="./bat-signal/index.html"></a></li>
+              <li><a class="icon icon-xxs icon-primary fa fa-pinterest" href="./bat-signal/index.html"></a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Javascript-->
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
